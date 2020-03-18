@@ -17,7 +17,8 @@ Using AWS CloudFormation we deploy all the required resources to have a high-ava
   
 ## Usage
 - Get your parameters ready in udagramparams-server-sample.json and udagramparams-network-sample.json parameters files.
-- Run the create.sh script to create the CloudFormation stack on your AWS Account.
+- Run the create.sh script with udagram-network.yml to create the CloudFormation network stack on your AWS Account first.
+- Run the create.sh script with udagram-servers.yml next to create the CloudFormation server stack on your AWS Account.
 
 ```./create.sh {stack-name} {template-file} {params-file}```
 
