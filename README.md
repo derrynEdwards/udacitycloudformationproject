@@ -16,7 +16,7 @@ Using AWS CloudFormation we deploy all the required resources to have a high-ava
 - AWS S3 Bucket with Source Code for the Web App
   
 ## Usage
-- Get your parameters ready in udagramparams-server.json and udagramparams-network.json.
+- Get your parameters ready in udagramparams-server-sample.json and udagramparams-network-sample.json parameters files.
 - Run the create.sh script to create the CloudFormation stack on your AWS Account.
 
 ```./create.sh {stack-name} {template-file} {params-file}```
