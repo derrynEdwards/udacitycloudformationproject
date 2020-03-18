@@ -27,3 +27,4 @@ Example:
 
 You can also use the update.sh script in order to update your CloudFormation stacks.
 
+Sample URL: http://udaci-WebAp-MMZVFFZD3TLG-465604347.us-west-2.elb.amazonaws.com
